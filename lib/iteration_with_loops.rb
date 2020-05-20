@@ -8,7 +8,7 @@ while row_index < src.count do
   while element_index < src[row_index].count do
    # binding pry
    if src[row_index][element_index].class == String
-     nested_string << src[row_index][element_index].join(',') 
+     nested_string << src[row_index][element_index].join('') 
    end
     element_index += 1 
   end
