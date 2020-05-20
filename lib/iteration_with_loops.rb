@@ -14,5 +14,5 @@ while row_index < src.count do
   end
   row_index += 1 
 end
-nested_string.join("")
+nested_string.join()
 end
